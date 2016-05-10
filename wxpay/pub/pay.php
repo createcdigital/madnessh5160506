@@ -92,11 +92,29 @@ $jsApiParameters = $tools->GetJsApiParameters($order);
             <span class="e4-6 in-1" id="e4-6"><?php echo $_GET['name']; ?></span>
             <span class="e4-7 in-1" id="e4-7"><?php echo $_GET['email']; ?></span>
             <span class="e4-8 in-1" id="e4-8"><?php echo $_GET['phone']; ?></span>
+            <!--效果html开始-->
+            <main class="loaded1">
+                <div>
+                    <div class="pacman">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </main>
         </div>
 
         <div class="swiper-slide p5">
             <img class="e5-bg" src="../../img/p5/bg.jpg" alt="">
             <div class="e5-1" id="qrcode"></div>
+            <!--效果html开始-->
+            <main class="loaded">
+                <div>
+                    <div class="pacman">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </main>
         </div>
     </div>
 </div>

@@ -57,6 +57,15 @@
         <div class="swiper-slide p2">
             <img class="e2-bg" src="img/p2/bg.jpg" alt="">
             <img class="e2-1 ani" src="img/transparent.png">
+            <!--效果html开始-->
+            <main class="loaded2">
+                <div>
+                    <div class="pacman">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </main>
         </div>
 
         <div class="swiper-slide p3">
@@ -92,11 +101,29 @@
                 <option value="4">Just for fun</option>
                 <option value="5">Other</option>
             </select>
+            <!--效果html开始-->
+            <main class="loaded3">
+                <div>
+                    <div class="pacman">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </main>
         </div>
 
         <div class="swiper-slide p5">
             <img class="e5-bg" src="img/p5/bg.jpg" alt="">
             <div class="e5-1" id="qrcode"></div>
+            <!--效果html开始-->
+            <main class="loaded">
+                <div>
+                    <div class="pacman">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </main>
         </div>
 
     </div>

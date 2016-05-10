@@ -11,7 +11,7 @@ app.template.loader.init= function(){
         var res = [];
         res.push("img/loading/e-1.jpg");
         res.push("img/p1/bg.jpg");
-        res.push("img/share-icon.jpg");
+        res.push("img/share-icon1.jpg");
         res.push("img/transparent.png");
         res.push("img/transparent.png");
         res.push("img/p2/bg.jpg");

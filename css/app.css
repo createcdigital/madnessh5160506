@@ -610,3 +610,94 @@ body {
     animation - name: bounce; - webkit - transform - origin: center bottom; - ms - transform - origin: center bottom;
     transform - origin: center bottom
 }
+
+
+@-webkit-keyframes pacman-balls {
+	0%{
+		height: 0px;
+	}
+	50% {
+		-webkit-transform: translate(-31.5px,-257px)rotate(180deg);
+		transform: translate(-31.5px,-257px) rotate(180deg);height: 200px;}
+
+	100% {
+		-webkit-transform: translate(-146px,-257px)rotate(180deg);
+		transform: translate(-146px,-257px) rotate(180deg);height: 0px;} }
+
+@keyframes pacman-balls {
+	0%{
+		height: 0px;
+	}
+	50% {
+		-webkit-transform: translate(-31.5px,-257px)rotate(180deg);
+		transform: translate(-31.5px,-257px) rotate(180deg);height: 200px;}
+	100% {
+		-webkit-transform: translate(-146px,-257px) rotate(180deg);
+		transform: translate(-146px,-257px) rotate(180deg);height: 0px;} }
+
+@-webkit-keyframes pacman-balls2 {
+	0%{
+		height: 0px;
+	}
+	50% {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);height: 200px;}
+	75%{height: 73px;}
+	100% {
+		-webkit-transform: translate(-146px,257px);
+		transform: translate(-146px,257px);height: 0px;} }
+
+@keyframes pacman-balls2 {
+	0%{
+		height: 0px;
+	}
+	50% {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);height: 200px;}
+	75%{height: 73px;}
+	100% {
+		-webkit-transform: translate(-146px,257px);
+		transform: translate(-146px,257px);height: 0px;} }
+
+.pacman {
+	position: relative; }
+.pacman > div:nth-child(1) {
+	-webkit-animation: pacman-balls 3s 0s infinite linear;
+	animation: pacman-balls 3s 0s infinite linear; }
+.pacman > div:nth-child(2) {
+	-webkit-animation: pacman-balls2 3s 0.5s infinite linear;
+	animation: pacman-balls2 3s 0.5s infinite linear; }
+
+.pacman > div:nth-child(1){
+
+	background-image: url("../img/2.png");
+	width: 146px;
+	height: 0px;
+	position: absolute;
+	top: 300px;
+	left: 35px;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);height: 0px;}
+.pacman > div:nth-child(2) {
+
+	background-image: url("../img/2-1.png");
+	width: 146px;
+	height: 0px;
+	position: absolute;
+	top: 0px;
+	left: -113px;}
+.loaded{position: absolute;
+	top: 0px;
+	left: 410px;}
+
+.loaded1{position: absolute;
+	top: 0px;
+	left: 422px;}
+
+.loaded2{position: absolute;
+	top: 0px;
+	left: 397px;}
+
+.loaded3{position: absolute;
+	top: 0px;
+	left: 350px;}
