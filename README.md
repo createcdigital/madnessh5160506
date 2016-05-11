@@ -1,11 +1,4 @@
-绑定的微信公众号开发者ID：
-微信公众号：SHMADNESS
-AppID(应用ID) ：wx6a373ecbeb135833
-AppSecret(应用密钥) ：8675b47aa839d97fd1eda3670b9a05c1
-
-微信公众号：创意疯人院
-AppID(应用ID) ：wwxd4f26aea63a05347
-AppSecret(应用密钥) ：ee83c1915b59d37aa47c14d9e590b052
+Developer: alex@createcdigital.com
 
 
 部署信息：
